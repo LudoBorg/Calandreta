@@ -1,0 +1,216 @@
+.container-fluid {
+    background-color: #337ab7;
+    border: solid 1px;
+    border-radius: 5px;
+  }
+
+.container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/*=====Style du tableau=====*/
+table {
+    border-collapse: collapse;
+    width: 100%;
+    background-color: white;
+    border: 1px solid black;
+    text-align: center;
+}
+td {
+    border: 1px solid black;
+    padding: 8px;
+}
+th {
+    border: 1px solid black;
+    padding: 8px;
+}
+table tr:hover {
+  background-color: #CCCCCC;
+}
+table tr {
+  background-color: #FFFFFF;
+}
+table th {
+    background-color: #86C4B5; 
+    color: white;
+    border: 1px solid black;
+}
+/*=====Fin style du tableau=====*/
+/*=====Style bouton du tableau=====*/
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 90px;
+  height: 34px;
+  margin-top : 1px;
+  margin-bottom : -1px;
+}
+
+.switch input {
+  display:none;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ca2222;
+  -webkit-transition: .4s;
+  transition: .4s;
+   border-radius: 34px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #2ab934;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(26px);
+  -ms-transform: translateX(26px);
+  transform: translateX(55px);
+}
+
+.slider:after {
+ content:'NON';
+ color: white;
+ display: block;
+ position: absolute;
+ transform: translate(-50%,-50%);
+ top: 50%;
+ left: 50%;
+ font-size: 10px;
+ font-family: Verdana, sans-serif;
+}
+
+input:checked + .slider:after {  
+  content:'OUI';
+}
+/*=====Fin du style pour les boutons du tableau=====*/
+#Valider{
+  background-color: #86C4B5; 
+  border-color: #86C4B5;
+  margin: auto;
+  display: block;
+}
+/*=====Partie solde=====*/
+#solde{
+  text-align: center;
+}
+#greensolde{
+  text-align: center;
+  color: green;
+  font-weight: bold;
+  font-size:24px;
+}
+#redsolde{
+  text-align: center;
+  color: red;
+  font-weight: bold;
+  font-size:24px;
+}
+/*=====Partie Bouton Administration Cantine=====*/
+#Administration_cantine{
+  width: 100%;
+  background-color: #86C4B5; 
+  border-color: #86C4B5;
+}
+/*=====Partie Bouton number=====*/
+#french-hens {
+  float: left;
+  width: 40px;
+  font: bold 20px Helvetica, sans-serif;
+  text-align: center;
+  margin-top: 16px;
+}
+
+.button {
+  margin: 16px 0 0 5px;
+  text-indent: -9999px;
+  cursor: pointer;
+  width: 29px;
+  height: 29px;
+  float: left;
+  text-align: center;
+  background: url(../Images/buttons.png) no-repeat;
+}
+#imprimer{
+  width: auto;
+}
+.dec {
+  background-position: 0 -29px;
+}
+#Valider2{
+  background-color: #86C4B5; 
+  border-color: #86C4B5;
+  margin-left: 20px;
+  margin-top: 12px;
+}
+/*======Partie responsable cantine=====*/
+#ajouter{
+  text-align: center;
+}
+#cheque_container{
+    box-shadow: -15px 12px 35px -10px rgba(0,0,0,0.35);
+    padding: 1% 1%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+#prix_container{
+    box-shadow: -15px 12px 35px -10px rgba(0,0,0,0.35);
+    padding: 1% 1%;
+    background-color: white;
+    border-radius: 10px;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+/*=====Navigation=====*/
+#choix input {
+  display: none;
+}
+#choix label {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 6px;
+  cursor:pointer;
+  color: #fff;
+  background-color: #343a40;
+  border-color: #343a40;
+  margin-bottom: 0px;
+}
+#choix label:hover {
+    color: #fff;
+    background-color: #23272b;
+    border-color: #1d2124;
+}
+#nav{
+    background-color: #343a40;
+}
+
+#b_valider_periodes{
+  text-align: center;
+}
