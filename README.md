@@ -1,5 +1,6 @@
 # Calandreta
 Gestion d'une cantine d'une école Ruthenoise
+
 __Besoin du site internet :__
 1. Compte individuel pour chaque parents
 2. Enregistrer ses enfants et modifier ses informations (classes, semaine de cantine type)
@@ -9,4 +10,4 @@ __Besoin du site internet :__
 # Architecture du site
 ![Architecture du site internet](https://nas.sidas.com/droits_utilisateurs/architecture/docs/architecturesite_BDDusers.png)
 # Partie Base de données
-![Base de données](https://github.com/LudoBorg/Calandreta/tree/master/architecture/docs/calandreta_BDD.png)
+(architecture/docs/calandreta_BDD.png)
