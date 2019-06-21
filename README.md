@@ -9,4 +9,4 @@ __Besoin du site internet :__
 # Architecture du site
 ![Architecture du site internet](https://nas.sidas.com/droits_utilisateurs/architecture/docs/architecturesite_BDDusers.png)
 # Partie Base de données
-![Base de données](https://calandreta_BDD.png)
+![Base de données](https://github.com/LudoBorg/Calandreta/tree/master/architecture/docs/calandreta_BDD.png)
